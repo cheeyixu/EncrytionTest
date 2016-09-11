@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionTest", "EncryptionTest\EncryptionTest.csproj", "{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigInteger", "..\..\BigInteger\BigInteger\BigInteger.csproj", "{8CF3391E-57AF-4C89-9496-C9D071E98AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElGamalExt", "..\..\ElGamalExt\ElGamalExt\ElGamalExt.csproj", "{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElGamalExt.Homomorphism", "..\..\ElGamalExt\ElGamalExt.Homomorphism\ElGamalExt.Homomorphism.csproj", "{11B0BD5B-16D7-4395-A968-4C225509588F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaillierExt", "..\..\PaillierExt\PaillierExt\PaillierExt.csproj", "{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaillierExt.Homomorphism", "..\..\PaillierExt\PaillierExt.Homomorphism\PaillierExt.Homomorphism.csproj", "{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy EGExt.Hom|Any CPU = Deploy EGExt.Hom|Any CPU
+		Deploy EGExt|Any CPU = Deploy EGExt|Any CPU
+		Deploy PExt.Hom|Any CPU = Deploy PExt.Hom|Any CPU
+		Deploy PExt|Any CPU = Deploy PExt|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy EGExt.Hom|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy EGExt|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy EGExt|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy PExt.Hom|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy PExt.Hom|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy PExt|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy PExt|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9784D6-7AB2-4E15-A56B-C6F8A0299722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy EGExt.Hom|Any CPU.Build.0 = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy EGExt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy EGExt|Any CPU.Build.0 = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy PExt.Hom|Any CPU.ActiveCfg = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy PExt.Hom|Any CPU.Build.0 = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy PExt|Any CPU.ActiveCfg = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy PExt|Any CPU.Build.0 = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF3391E-57AF-4C89-9496-C9D071E98AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy EGExt.Hom|Any CPU.Build.0 = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy EGExt|Any CPU.ActiveCfg = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy EGExt|Any CPU.Build.0 = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy PExt.Hom|Any CPU.ActiveCfg = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy PExt.Hom|Any CPU.Build.0 = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy PExt|Any CPU.ActiveCfg = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy PExt|Any CPU.Build.0 = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy|Any CPU.ActiveCfg = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Deploy|Any CPU.Build.0 = Deploy EGExt|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C905F97C-BD3A-434E-A155-B0DA78DC7EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy EGExt.Hom|Any CPU.Build.0 = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy EGExt|Any CPU.ActiveCfg = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy EGExt|Any CPU.Build.0 = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy PExt.Hom|Any CPU.ActiveCfg = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy PExt.Hom|Any CPU.Build.0 = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy PExt|Any CPU.ActiveCfg = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy PExt|Any CPU.Build.0 = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy|Any CPU.ActiveCfg = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Deploy|Any CPU.Build.0 = Deploy EGExt.Hom|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B0BD5B-16D7-4395-A968-4C225509588F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy EGExt.Hom|Any CPU.Build.0 = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy EGExt|Any CPU.ActiveCfg = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy EGExt|Any CPU.Build.0 = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy PExt.Hom|Any CPU.ActiveCfg = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy PExt.Hom|Any CPU.Build.0 = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy PExt|Any CPU.ActiveCfg = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy PExt|Any CPU.Build.0 = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy|Any CPU.ActiveCfg = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Deploy|Any CPU.Build.0 = Deploy PExt|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FBBB79-ED7C-4733-8B21-957BFAB6BA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy EGExt.Hom|Any CPU.ActiveCfg = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy EGExt.Hom|Any CPU.Build.0 = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy EGExt|Any CPU.ActiveCfg = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy EGExt|Any CPU.Build.0 = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy PExt.Hom|Any CPU.ActiveCfg = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy PExt.Hom|Any CPU.Build.0 = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy PExt|Any CPU.ActiveCfg = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy PExt|Any CPU.Build.0 = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy|Any CPU.ActiveCfg = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Deploy|Any CPU.Build.0 = Deploy PExt.Hom|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2D4D0A-A0EA-484C-9787-065086C4ACA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
